@@ -14,6 +14,7 @@
 </div>
 
 ###
+<hr>
 
 <img align="right" height="250" src="https://github.com/Ajmain-Fayek/Ajmain-Fayek/blob/main/output_99gR1Z.gif"/>
 
