@@ -1,4 +1,10 @@
 <br clear="both">
+
+###
+<img align="center" height="250" src="https://github.com/Ajmain-Fayek/Ajmain-Fayek/blob/main/output_99gR1Z.gif"/>
+<hr>
+###
+
 <h1 align="left">Hi 👋! <br>My name is Ajmain Fayek (He/Him)<br>and I'm a Web-Programmer, from Bangladesh.</h1>
 <hr>
 
@@ -13,9 +19,6 @@
 
 ###
 <hr>
-
-<img align="right" height="250" src="https://github.com/Ajmain-Fayek/Ajmain-Fayek/blob/main/output_99gR1Z.gif"/>
-
 ###
 
 <p align="left">Stack of Techs with which I like to work...</p>
