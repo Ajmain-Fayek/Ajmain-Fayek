@@ -2,8 +2,6 @@
 
 ###
 
-<img align="center" height="200" src="https://github.com/Ajmain-Fayek/Ajmain-Fayek/blob/main/output_99gR1Z.gif"/>
-
 <h1 align="left">Hi 👋! <br>My name is Ajmain Fayek (He/Him)<br>and I'm a Web-Programmer, from Bangladesh.</h1>
 <hr>
 
