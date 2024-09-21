@@ -2,7 +2,7 @@
 
 <h1 align="left">Hi 👋! <br>My name is Ajmain Fayek (He/Him)<br>and I'm a Web-Programmer, from Bangladesh.</h1>
 
-###
+<hr>
 
 <br clear="both">
 
