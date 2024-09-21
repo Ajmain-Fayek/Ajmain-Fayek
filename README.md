@@ -15,7 +15,7 @@
 
 ###
 
-<img align="right" height="250" src="https://i.imgflip.com/65efzo.gif"  />
+<img align="right" height="250" src="https://github.com/Ajmain-Fayek/Ajmain-Fayek/blob/main/output_99gR1Z.gif"/>
 
 ###
 
@@ -76,11 +76,5 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="95" height="45" alt="facebook logo"  />
   </a>
 </div>
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Ajmain-Fayek/Ajmain-Fayek/output/snake.svg" alt="Snake animation" />
 
 ###
