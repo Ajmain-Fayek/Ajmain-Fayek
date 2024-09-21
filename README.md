@@ -54,6 +54,7 @@
 </div>
 
 ###
+<hr>
 
 <p align="left">Connect With Me...</p>
 
