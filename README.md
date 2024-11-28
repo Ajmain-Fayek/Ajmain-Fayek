@@ -37,6 +37,10 @@
   <img width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="react logo"  />
   <img width="50" />
+  <img src="https://i.ibb.co.com/1sskJF7/1-Mo-09-Vngs5t-o-WGq-HZu-Ptg.webp" height="60" alt="react-router logo"  />
+  <img width="50" />
+  <img src="https://i.ibb.co.com/qs8FjLs/pngwing-com-1.png" height="60" alt="firebase logo"  />
+  <img width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" height="60" alt="nodejs logo"  />
   <img width="50" />
   <img src="https://i.ibb.co.com/5cXRCq0/pngwing-com.png" height="60" alt="expressjs logo"  />
