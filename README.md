@@ -41,8 +41,6 @@
   <img width="50" />
   <img src="https://i.ibb.co.com/qs8FjLs/pngwing-com-1.png" height="60" alt="firebase logo"  />
   <img width="50" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" height="60" alt="nodejs logo"  />
-  <img width="50" />
   <img src="https://i.ibb.co.com/5cXRCq0/pngwing-com.png" height="60" alt="expressjs logo"  />
   <img width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" height="60" alt="mongodb logo"  />
