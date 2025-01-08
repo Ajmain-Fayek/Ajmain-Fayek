@@ -10,7 +10,12 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2021<br>📚 Currently learning JWT<br>🎯 Goals:<br>- Master the MERN stack<br>- Building dynamic, secure, scalable ,and user-friendly web applications<br>🎲 Fun fact: Developers don't write bugs; they create unexpected features! 😄</p>
+<p align="left">✨ Creating bugs since 2021<br>
+  
+  📚 Currently learning JWT<br>🎯 Goals:<br>
+    -   Master the MERN stack<br>
+    -   Building dynamic, secure, scalable ,and user-friendly web applications<be>
+  🎲 Fun fact: Developers don't write bugs; they create unexpected features! 😄</p>
 
 ###
 
