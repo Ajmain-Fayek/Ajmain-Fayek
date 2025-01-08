@@ -1,3 +1,8 @@
+<img src="./Artboard 1.png" />
+</br>
+
+###
+
 <h1 align="left">Ajmain Fayek</h1>
 
 ###
@@ -14,7 +19,7 @@
   
   📚 Currently learning JWT<br>🎯 Goals:<br>
     -   Master the MERN stack<br>
-    -   Building dynamic, secure, scalable ,and user-friendly web applications<be>
+    -   Building dynamic, secure, scalable ,and user-friendly web applications<br>
   🎲 Fun fact: Developers don't write bugs; they create unexpected features! 😄</p>
 
 ###
