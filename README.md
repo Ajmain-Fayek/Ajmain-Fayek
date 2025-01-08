@@ -1,5 +1,7 @@
 <h1 align="left">Ajmain Fayek</h1>
 
+###
+
 <p align="left">Web Programmer</p>
 
 ###
@@ -46,19 +48,25 @@
 
 ###
 
+<h2 align="left">Tools</h2>
+
+###
+
 <div align="left">
   <img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase logo"  />
   <img width="12" />
   <img src="https://cdn.simpleicons.org/vercel/000000" height="40" alt="vercel logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo"  />
 </div>
 
 ###
 
-<h2 align="left">Tools</h2>
-
-###
-
-<h2 align="left">Tools</h2>
+<h2 align="left">Social</h2>
 
 ###
 
@@ -73,7 +81,7 @@
 
 ###
 
-<h2 align="left">Tools</h2>
+<h2 align="left">Stats</h2>
 
 ###
 
