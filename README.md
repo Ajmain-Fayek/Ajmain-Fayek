@@ -17,7 +17,8 @@
 
 <p align="left">✨ Creating bugs since 2021<br>
   
-  📚 Currently learning JWT<br>
+  📚 Currently working on Bistro Boss
+  <br>
   
   🎯 Goals: 
    - Master the MERN stack
