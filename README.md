@@ -17,7 +17,7 @@
 
 <p align="left">✨ Creating bugs since 2021<br>
   
-  📚 Currently working on Bistro Boss
+  📚 Currently working on StructoMate
   <br>
   
   🎯 Goals: 
