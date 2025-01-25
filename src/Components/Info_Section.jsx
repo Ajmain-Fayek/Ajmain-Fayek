@@ -60,7 +60,7 @@ const Info_Section = () => {
                             <li>
                                 <a
                                     href={Resume}
-                                    download={"Ajmain Fayek Resume"}
+                                    download={"Ajmain Fayek's Resume"}
                                     className="btn-sm btn rounded-md hover:scale-110 active:scale-100 bg-[#6c55e0] hover:bg-[#6c55e0] text-white"
                                 >
                                     <GrDocumentDownload /> Resume
