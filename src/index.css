@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", serif;
+    letter-spacing: 0.025rem;
+    background-color: #fff;
+}
+
+.Toastify__toast-container {
+  z-index: 9999999;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #24222a;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li.active a {
+    color: #6c55e0;
+    font-weight: bold;
+}
+
+.rhombus {
+    --r: 65px; /* the radius */
+
+    height: 260px; /* adjust to control the size  */
+    aspect-ratio: 1;
+    margin: calc(tan(22.5deg) * var(--r));
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%) margin-box;
+    --_g: /calc(2 * var(--r)) calc(2 * var(--r)) radial-gradient(#000 70%, #0000
+                72%);
+    --_s: calc(100% - (1 - tan(22.5deg)) * var(--r));
+    mask: conic-gradient(#000 0 0) no-repeat 50% / var(--_s) var(--_s),
+        top var(--_g) no-repeat space, left var(--_g) space no-repeat;
+    background: #6c55e0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
