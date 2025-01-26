@@ -29,7 +29,7 @@ const Contact_Me = () => {
                         +880 1568 647092
                     </a>
                     <a
-                        href="https://wa.me/+8801761294649"
+                        href="https://wa.me/+8801568647092"
                         target="_blank"
                         className="flex hover:underline items-center gap-4 lg:mt-2.5"
                     >
@@ -46,7 +46,7 @@ const Contact_Me = () => {
                     </a>
                     <p className="flex items-center gap-4 lg:mt-2.5">
                         <IoLocationOutline size={"1.5rem"} color="#6c55e0" />
-                        Uttara-10, Dhaka-1230
+                        Dhaka, Bangladesh
                     </p>
                 </div>
 
