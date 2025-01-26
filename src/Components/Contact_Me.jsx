@@ -2,15 +2,15 @@ import React from "react";
 import Send_Me_Message from "./Send_Me_Message";
 import { IoLocationOutline, IoLogoWhatsapp } from "react-icons/io5";
 import { MdOutlinePhoneCallback } from "react-icons/md";
-import { FaLocationDot } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
+import { RiContactsFill } from "react-icons/ri";
 
 const Contact_Me = () => {
     return (
         <div className="max-w-screen-lg mx-auto px-4 py-20">
             <div className="text-center">
                 <h1 className="text-2xl flex items-center justify-center font-bold gap-1.5">
-                    Contact Me
+                    <RiContactsFill size={"1.5rem"} /> Contact Me
                 </h1>
                 <span className="text-sm text-[#5a595e]">
                     How You Can Connect and Collaborate with Me

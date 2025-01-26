@@ -26,9 +26,11 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 max-w-screen-2xl mx-auto">
             <div className="navbar-start">
-                <a className="text-xl font-semibold">Ajmain Fayek</a>
+                <a href="#home" className="text-xl font-semibold">
+                    Ajmain Fayek
+                </a>
             </div>
             <nav className="navbar-center hidden md:flex">
                 <ul className="gap-4 px-1">
