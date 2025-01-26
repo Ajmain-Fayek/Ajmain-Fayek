@@ -26,6 +26,7 @@ const Info_Section = () => {
                                 <a
                                     href="https://github.com/Ajmain-Fayek"
                                     target="_blank"
+                                    title="Github"
                                 >
                                     <FaGithubSquare
                                         color="#6c55e0"
@@ -38,6 +39,7 @@ const Info_Section = () => {
                                 <a
                                     href="https://www.linkedin.com/in/ajmainfayek733"
                                     target="_blank"
+                                    title="LinkedIn"
                                 >
                                     <FaLinkedin
                                         color="#6c55e0"
@@ -50,6 +52,7 @@ const Info_Section = () => {
                                 <a
                                     href="https://www.facebook.com/AjmainFayek733"
                                     target="_blank"
+                                    title="Facebook"
                                 >
                                     <FaFacebookSquare
                                         color="#6c55e0"
@@ -62,6 +65,7 @@ const Info_Section = () => {
                                 <a
                                     href={Resume}
                                     download={"Ajmain Fayek's Resume"}
+                                    title="Download Resume"
                                     className="btn-sm btn rounded-md hover:scale-110 active:scale-100 bg-[#6c55e0] hover:bg-[#6c55e0] text-white"
                                 >
                                     <GrDocumentDownload /> Resume
@@ -72,10 +76,11 @@ const Info_Section = () => {
                 </div>
             </div>
             <div className="md:w-1/2 w-full flex justify-center">
-                <div className="">
+                <div>
                     <img
                         className="w-[320px]"
                         src={Photo}
+                        title="Ajmain Fayek | Web programmer | Aspiring MERN Stack Developer"
                         alt="Picture of Ajmain Fayek. Web programmer | Aspiring MERN Stack Developer"
                     />
                 </div>

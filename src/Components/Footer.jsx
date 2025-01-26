@@ -23,6 +23,7 @@ const Footer = () => {
                         <a
                             href="https://github.com/Ajmain-Fayek"
                             target="_blank"
+                            title="Github"
                         >
                             <FaGithubSquare
                                 color="#fff"
@@ -35,6 +36,7 @@ const Footer = () => {
                         <a
                             href="https://www.linkedin.com/in/ajmainfayek733"
                             target="_blank"
+                            title="LinkedIn"
                         >
                             <FaLinkedin
                                 color="#fff"
@@ -47,6 +49,7 @@ const Footer = () => {
                         <a
                             href="https://www.facebook.com/AjmainFayek733"
                             target="_blank"
+                            title="Facebook"
                         >
                             <FaFacebookSquare
                                 color="#fff"
@@ -59,6 +62,7 @@ const Footer = () => {
                         <a
                             href={Resume}
                             download={"Ajmain Fayek's Resume"}
+                            title="Download Resume"
                             className="btn-sm btn rounded-md hover:scale-110 active:scale-100 bg-[#6c55e0] hover:bg-[#6c55e0] text-white"
                         >
                             <GrDocumentDownload /> Resume

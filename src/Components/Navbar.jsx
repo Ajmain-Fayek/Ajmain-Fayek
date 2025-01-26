@@ -86,6 +86,7 @@ const Navbar = () => {
                 <a
                     href={Resume}
                     download={"Ajmain Fayek's Resume"}
+                    title="Download Resume"
                     className="btn-sm btn active:scale-100 rounded-md bg-[#6c55e0] hover:bg-[#6c55e0] hover:scale-105 text-white"
                 >
                     <GrDocumentDownload /> Resume
