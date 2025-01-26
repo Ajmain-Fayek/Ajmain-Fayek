@@ -13,7 +13,7 @@ function App() {
             <div className="sticky top-0 z-[99999] shadow-sm">
                 <Navbar />
             </div>
-            <div className="max-w-screen-2xl mx-auto">
+            <div className="max-w-screen-2xl mx-auto sm:px-4">
                 <section id="home" className="px-1">
                     <Info_Section />
                 </section>

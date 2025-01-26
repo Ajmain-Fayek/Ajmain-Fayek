@@ -3,10 +3,11 @@ import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { GrDocumentDownload } from "react-icons/gr";
 import { RiScrollToBottomFill } from "react-icons/ri";
 import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_programmer_v3.0.pdf";
+import Photo from "../assets/Photo of Ajmain Fayek.webp";
 
 const Info_Section = () => {
     return (
-        <div className="flex relative flex-col-reverse max-w-screen-lg mx-auto gap-4 md:flex-row py-14 md:py-32 w-full items-center">
+        <div className="flex relative flex-col-reverse max-w-screen-2xl mx-auto gap-4 md:flex-row py-14 md:py-32 w-full items-center">
             <div className="md:w-1/2 w-full flex flex-col">
                 <div className="space-y-4 p-4">
                     <h1 className="text-2xl font-bold xl:text-4xl">
@@ -71,10 +72,11 @@ const Info_Section = () => {
                 </div>
             </div>
             <div className="md:w-1/2 w-full flex justify-center">
-                <div className="rhombus relative">
+                <div className="">
                     <img
-                        className=""
-                        src="https://i.ibb.co.com/HHz9JY5/IMG-3344-1-1.jpg"
+                        className="w-[320px]"
+                        src={Photo}
+                        alt="Picture of Ajmain Fayek. Web programmer | Aspiring MERN Stack Developer"
                     />
                 </div>
             </div>

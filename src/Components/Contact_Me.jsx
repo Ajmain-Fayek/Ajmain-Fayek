@@ -7,7 +7,7 @@ import { RiContactsFill } from "react-icons/ri";
 
 const Contact_Me = () => {
     return (
-        <div className="max-w-screen-lg mx-auto px-4 py-20">
+        <div className="max-w-screen-2xl mx-auto px-4 py-20">
             <div className="text-center">
                 <h1 className="text-2xl flex items-center justify-center font-bold gap-1.5">
                     <RiContactsFill size={"1.5rem"} /> Contact Me

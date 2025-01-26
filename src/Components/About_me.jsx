@@ -3,7 +3,7 @@ import { FaInfoCircle } from "react-icons/fa";
 
 const About_me = () => {
     return (
-        <div className="max-w-screen-lg mx-auto px-4 py-20">
+        <div className="max-w-screen-2xl mx-auto px-4 py-20">
             <div className="text-center">
                 <h1 className="text-2xl flex items-center justify-center font-bold gap-1.5">
                     <FaInfoCircle size={"1.35rem"} />

@@ -31,7 +31,7 @@ const toolsSkills = [
 
 const Skill_Section = () => {
     return (
-        <div className="py-20 px-4 max-w-screen-lg mx-auto">
+        <div className="py-20 px-4 max-w-screen-2xl mx-auto">
             <div className="text-center">
                 <h1 className="text-2xl font-semibold flex items-center justify-center gap-1.5">
                     {" "}

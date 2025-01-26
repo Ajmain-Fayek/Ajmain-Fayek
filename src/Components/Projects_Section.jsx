@@ -8,7 +8,7 @@ import { SiOpenproject } from "react-icons/si";
 
 const Projects_Section = () => {
     return (
-        <div className="max-w-screen-lg mx-auto px-4 py-20">
+        <div className="max-w-screen-2xl mx-auto px-4 py-20">
             <div className="text-center mb-8">
                 <h1 className="text-2xl flex items-center justify-center font-bold gap-1.5">
                     <SiOpenproject size={"1.5rem"} /> Projects
@@ -20,7 +20,11 @@ const Projects_Section = () => {
             {/* Projects card */}
             <div className="max-w-sm p-2 mx-auto rounded-md shadow-md hover:shadow-lg hover:scale-105 bg-[#f0eefc] transition-all ease-in-out">
                 <div className="flex items-center gap-1.5 py-2">
-                    <img className="h-8 w-8" src={structoLogo} />
+                    <img
+                        className="h-8 w-8"
+                        src={structoLogo}
+                        alt="StructoMate Logo. A single-building management app for adding renters, managing agreements, sending announcements, and enabling members to pay rent monthly."
+                    />
                     <h3 className="lg:text-xl text-lg font-semibold">
                         StructoMate
                     </h3>
@@ -33,13 +37,22 @@ const Projects_Section = () => {
                 {/* Carousel */}
                 <Carousel showThumbs={false} showStatus={false}>
                     <div>
-                        <img src={structo2} />
+                        <img
+                            alt="StructoMate Preview. A single-building management app for adding renters, managing agreements, sending announcements, and enabling members to pay rent monthly."
+                            src={structo2}
+                        />
                     </div>
                     <div>
-                        <img src={structo3} />
+                        <img
+                            alt="StructoMate Preview. A single-building management app for adding renters, managing agreements, sending announcements, and enabling members to pay rent monthly."
+                            src={structo3}
+                        />
                     </div>
                     <div>
-                        <img src={structo1} />
+                        <img
+                            alt="StructoMate Preview. A single-building management app for adding renters, managing agreements, sending announcements, and enabling members to pay rent monthly."
+                            src={structo1}
+                        />
                     </div>
                 </Carousel>
             </div>
