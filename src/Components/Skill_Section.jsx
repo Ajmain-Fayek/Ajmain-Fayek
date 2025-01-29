@@ -44,7 +44,7 @@ const Skill_Section = () => {
             </div>
             {/* Frontend */}
             <div className="flex gap-8 mt-8 justify-between flex-col lg:flex-row">
-                <div className="p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-105 transition-all ease-linear">
+                <div className="p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
                     <h3 className="lg:text-xl text-lg font-bold flex items-center gap-1.5 mb-4 text-[#6c55e0]">
                         <RiBracesLine color="#6c55e0" size={"1.5rem"} />{" "}
                         Frontend
@@ -63,7 +63,7 @@ const Skill_Section = () => {
                     </div>
                 </div>
                 {/* Backend */}
-                <div className="p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-105 transition-all ease-linear">
+                <div className="p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
                     <h3 className="lg:text-xl text-lg font-semibold flex items-center gap-1.5 mb-4 text-[#6c55e0]">
                         <GiServerRack color="#6c55e0" /> Backend
                     </h3>
@@ -81,7 +81,7 @@ const Skill_Section = () => {
                     </div>
                 </div>
                 {/* Tools */}
-                <div className="p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-105 transition-all ease-linear">
+                <div className="p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
                     <h3 className="lg:text-xl text-lg font-semibold flex items-center gap-1.5 mb-4 text-[#6c55e0]">
                         <BsTools color="#6c55e0" /> Tools
                     </h3>

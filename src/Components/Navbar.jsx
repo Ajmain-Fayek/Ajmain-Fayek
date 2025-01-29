@@ -28,23 +28,26 @@ const Navbar = () => {
     return (
         <div className="navbar bg-base-100 max-w-screen-2xl mx-auto">
             <div className="navbar-start">
-                <a href="#home" className="text-xl font-semibold">
+                <a
+                    href="#home"
+                    className="text-xl sm:text-2xl font-bold text-[#6c55e0]"
+                >
                     Ajmain Fayek
                 </a>
             </div>
             <nav className="navbar-center hidden md:flex">
                 <ul className="gap-4 px-1">
                     <li
-                        className={`hidden lg:block ${
+                        className={`hidden xl:block ${
                             activeSection === "home" ? "active" : ""
                         }`}
                     >
                         <a href="#home">Home</a>
                     </li>
                     <li
-                        className={
+                        className={`hidden lg:block ${
                             activeSection === "about_me_section" ? "active" : ""
-                        }
+                        }`}
                     >
                         <a href="#about_me_section">About Me</a>
                     </li>
@@ -92,7 +95,7 @@ const Navbar = () => {
                     <GrDocumentDownload /> Resume
                 </a>
             </div>
-            <nav className="dropdown ml-1">
+            <nav className="dropdown">
                 <div
                     tabIndex={0}
                     role="button"

@@ -63,7 +63,7 @@ const Footer = () => {
                             href={Resume}
                             download={"Ajmain Fayek's Resume"}
                             title="Download Resume"
-                            className="btn-sm btn rounded-md hover:scale-110 active:scale-100 bg-[#6c55e0] hover:bg-[#6c55e0] text-white"
+                            className="btn-sm btn flex-nowrap rounded-md hover:scale-110 active:scale-100 bg-[#6c55e0] hover:bg-[#6c55e0] text-white"
                         >
                             <GrDocumentDownload /> Resume
                         </a>

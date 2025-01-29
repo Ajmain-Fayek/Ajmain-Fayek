@@ -1,12 +1,8 @@
-import structoLogo from "/LogoWithText.webp";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
-import structo1 from "/structomate (1).webp";
-import structo2 from "/structomate (2).webp";
-import structo3 from "/structomate (3).webp";
+import structoLogo from "./../assets/LogoWithText.webp";
 import { SiOpenproject } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { RiLiveFill } from "react-icons/ri";
+import StructoMate from "./../assets/StructoMate.webp";
 
 const Projects_Section = () => {
     return (
@@ -21,7 +17,7 @@ const Projects_Section = () => {
             </div>
             {/* Projects card */}
             <div className="max-w-sm p-4 mx-auto rounded-md shadow-md hover:shadow-lg hover:scale-[101%] bg-[#f0eefc] transition-all ease-in-out">
-                {/* Project 1 */}
+                {/* Project 1 - StructoMate*/}
                 <div>
                     <div className="flex items-center gap-1.5 py-2">
                         <img
@@ -38,27 +34,13 @@ const Projects_Section = () => {
                         managing agreements, sending announcements, and enabling
                         members to pay rent monthly.
                     </span>
-                    {/* Carousel */}
-                    <Carousel showThumbs={false} showStatus={false}>
-                        <div>
-                            <img
-                                alt="StructoMate Preview. A single-building management app for adding renters, managing agreements, sending announcements, and enabling members to pay rent monthly."
-                                src={structo2}
-                            />
-                        </div>
-                        <div>
-                            <img
-                                alt="StructoMate Preview. A single-building management app for adding renters, managing agreements, sending announcements, and enabling members to pay rent monthly."
-                                src={structo3}
-                            />
-                        </div>
-                        <div>
-                            <img
-                                alt="StructoMate Preview. A single-building management app for adding renters, managing agreements, sending announcements, and enabling members to pay rent monthly."
-                                src={structo1}
-                            />
-                        </div>
-                    </Carousel>
+                    {/* Project Thumbnail */}
+                    <div>
+                        <img
+                            src={StructoMate}
+                            alt="Project: StrcutoMate. A Single Building Management Web Application build with MERN technology."
+                        />
+                    </div>
                     <div className="pt-4 flex gap-2 flex-wrap justify-center flex-grow">
                         <a
                             href="https://structomate.web.app/"
