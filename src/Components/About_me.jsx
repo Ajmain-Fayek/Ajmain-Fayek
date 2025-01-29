@@ -14,14 +14,18 @@ const About_me = () => {
                 </span>
             </div>
             <p className="text-[#5a595e] mt-8 text-wrap">
-                I have a passion for exploring new things and embracing new
-                technologies. In my free time, I enjoy hiking, bike riding, and
-                watching Marvel Cinematic movies, sci-fi movies, comedy, and
-                horror movies. I love the thrill of discovering new places,
-                whether it's the hills, the sea, or the forest. Camping is one
-                of my favorite activities as it allows me to connect with nature
-                and unwind. I'm always eager to learn and experience something
-                new.
+                My journey began with curiosity and has transformed into a
+                strong passion for web development. I am now a confident
+                developer, committed to creating impactful web applications that
+                solve real-world problems. Day by day, I am becoming an expert
+                in MongoDB, Express.js, React.js, Node.js, and Next.js.
+                <br />
+                In my free time, I enjoy hiking, bike riding, and watching
+                Marvel Cinematic movies, sci-fi movies, comedy, and horror
+                movies. I love the thrill of discovering new places, whether
+                it's the hills, the sea, or the forest. Camping is one of my
+                favorite activities as it allows me to connect with nature and
+                unwind. I'm always eager to learn and experience something new.
             </p>
         </div>
     );
