@@ -13,7 +13,7 @@ const Education_Section = () => {
                 </span>
             </div>
 
-            <p className="text-[#5a595e] mt-8 text-wrap">
+            <p className="text-[#5a595e] mt-8 text-pretty">
                 Currently pursuing a degree in{" "}
                 <strong>Computer Science and Engineering</strong> at the{" "}
                 <strong>

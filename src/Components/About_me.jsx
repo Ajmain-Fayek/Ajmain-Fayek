@@ -13,12 +13,13 @@ const About_me = () => {
                     An Insight into Who I Am and What I Bring to the Table
                 </span>
             </div>
-            <p className="text-[#5a595e] mt-8 text-wrap">
+            <p className="text-[#5a595e] mt-8 text-pretty text-justify">
                 My journey began with curiosity and has transformed into a
                 strong passion for web development. I am now a confident
                 developer, committed to creating impactful web applications that
                 solve real-world problems. Day by day, I am becoming an expert
                 in MongoDB, Express.js, React.js, Node.js, and Next.js.
+                <br />
                 <br />
                 In my free time, I enjoy hiking, bike riding, and watching
                 Marvel Cinematic movies, sci-fi movies, comedy, and horror

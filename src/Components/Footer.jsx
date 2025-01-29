@@ -11,7 +11,7 @@ const Footer = () => {
                     Ajmain Fayek
                 </h1>
                 <p className="text-lg text-[#cecece]">Web Programmer</p>
-                <p className="text-base max-w-lg text-[#cecece] text-wrap">
+                <p className="text-base max-w-lg text-[#cecece] text-pretty">
                     Embarking on a Journey to Master the MERN Stack: Crafting
                     Scalable, Dynamic, and Feature-Rich Web Applications with
                     MongoDB, Express.js, React, and Node.js

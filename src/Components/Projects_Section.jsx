@@ -29,7 +29,7 @@ const Projects_Section = () => {
                             StructoMate
                         </h3>
                     </div>
-                    <span className="text-sm block mb-4 mt-1 text-[#5a595e]">
+                    <span className="text-sm block mb-4 mt-1 text-[#5a595e] text-balance">
                         A single-building management app for adding renters,
                         managing agreements, sending announcements, and enabling
                         members to pay rent monthly.

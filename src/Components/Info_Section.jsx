@@ -14,7 +14,7 @@ const Info_Section = () => {
                         Hi, I'm Ajmain Fayek
                     </h1>
                     <p className="text-lg text-[#5a595e]">Web Programmer</p>
-                    <p className="text-base text-[#5a595e] text-wrap">
+                    <p className="text-base text-[#5a595e] text-pretty">
                         Embarking on a Journey to Master the MERN Stack:
                         Crafting Scalable, Dynamic, and Feature-Rich Web
                         Applications with MongoDB, Express.js, React, and
