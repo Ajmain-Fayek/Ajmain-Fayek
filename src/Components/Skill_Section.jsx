@@ -19,7 +19,7 @@ const backendSkills = [
     { name: "Node", logo: <FaNodeJs size={"1.5rem"} /> },
     { name: "Express", logo: <SiExpress size={"1.5rem"} /> },
     { name: "MongoDB", logo: <SiMongodb size={"1.5rem"} /> },
-    { name: "NextJs", logo: <TbBrandNextjs size={"1.5rem"} /> },
+    // { name: "NextJs", logo: <TbBrandNextjs size={"1.5rem"} /> },
 ];
 const toolsSkills = [
     { name: "Firebase", logo: <IoLogoFirebase size={"1.5rem"} /> },
