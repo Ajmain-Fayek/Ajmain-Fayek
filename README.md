@@ -7,7 +7,7 @@
 
 ###
 
-<p align="left">Web Programmer</p>
+<p align="left">Web Programmer || Frontend Developer</p>
 
 ###
 
