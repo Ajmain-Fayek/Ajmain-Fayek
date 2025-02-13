@@ -26,6 +26,8 @@
     
   🎲 Fun fact: Developers don't write bugs; they create unexpected features! 😄</p>
 
+  <img src="./public/favicon.webp" /> Portfolio: <https://ajmain-fayek.web.app/>
+
 ###
 
 <h2 align="left">Frontend stacks</h2>
