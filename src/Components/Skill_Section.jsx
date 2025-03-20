@@ -1,17 +1,47 @@
 import React from "react";
 import { BsTools } from "react-icons/bs";
-import { FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
+import {
+    FaCss3Alt,
+    FaGitAlt,
+    FaGithub,
+    FaHtml5,
+    FaNodeJs,
+    FaReact,
+} from "react-icons/fa";
 import { GiServerRack, GiSkills } from "react-icons/gi";
 import { IoLogoFirebase, IoLogoVercel } from "react-icons/io5";
 import { RiBracesLine } from "react-icons/ri";
-import { SiExpress, SiJavascript, SiJsonwebtokens, SiMongodb } from "react-icons/si";
+import {
+    SiExpress,
+    SiJavascript,
+    SiJsonwebtokens,
+    SiMongodb,
+} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { easeIn, easeInOut, keyframes, motion } from "motion/react";
 
 const frontendSkills = [
     { name: "HTML", logo: <FaHtml5 size={"1.5rem"} /> },
     { name: "CSS", logo: <FaCss3Alt size={"1.5rem"} /> },
     { name: "JavaScript", logo: <SiJavascript size={"1.5rem"} /> },
-    { name: "React", logo: <FaReact size={"1.5rem"} /> },
+    {
+        name: "React",
+        logo: (
+            <motion.div
+                initial={{ rotate: 0 }}
+                animate={{
+                    rotate: [0, 360],
+                    transition: {
+                        duration: 5,
+                        repeat: Infinity,
+                        ease: "linear",
+                    },
+                }}
+            >
+                <FaReact size={"1.5rem"} />
+            </motion.div>
+        ),
+    },
     { name: "NextJs", logo: <TbBrandNextjs size={"1.5rem"} /> },
 ];
 
@@ -53,9 +83,15 @@ const Skill_Section = () => {
                         {frontendSkills.map((skill, index) => (
                             <div
                                 key={index}
-                                className="flex flex-col-reverse items-center gap-4"
+                                className={`flex flex-col-reverse items-center gap-4`}
                             >
-                                <h4 className="flex flex-col text-md items-center gap-1.5 text-[#5744b6]">
+                                <h4
+                                    className={`flex flex-col text-md items-center gap-1.5 ${
+                                        skill?.name === "React"
+                                            ? "text-[#178fff]"
+                                            : "text-[#5744b6]"
+                                    }`}
+                                >
                                     {skill.logo} {skill.name}
                                 </h4>
                             </div>

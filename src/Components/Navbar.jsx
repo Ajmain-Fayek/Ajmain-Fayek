@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { GrDocumentDownload } from "react-icons/gr";
-import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_programmer_v3.0.pdf";
+import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_Developer.pdf";
 
 const Navbar = () => {
     const [activeSection, setActiveSection] = useState("home");

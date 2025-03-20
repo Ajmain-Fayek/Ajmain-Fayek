@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { GrDocumentDownload } from "react-icons/gr";
 import { RiScrollToBottomFill } from "react-icons/ri";
-import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_programmer_v3.0.pdf";
+import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_Developer.pdf";
 import Photo from "../assets/Photo of Ajmain Fayek.webp";
 
 const Info_Section = () => {
@@ -85,7 +85,7 @@ const Info_Section = () => {
                     />
                 </div>
             </div>
-            <div className="flex absolute bottom-0 md:bottom-16 gap-1 items-center -mt-10">
+            <div className="flex absolute bottom-8 md:bottom-16 gap-1 items-center -mt-10">
                 <RiScrollToBottomFill color="#6c55e0" size={"1.5rem"} />
                 Scroll down
             </div>

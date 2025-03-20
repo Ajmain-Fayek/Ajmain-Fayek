@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_programmer_v3.0.pdf";
+import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_Developer.pdf";
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { GrDocumentDownload } from "react-icons/gr";
 

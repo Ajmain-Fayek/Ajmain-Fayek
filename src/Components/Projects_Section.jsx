@@ -5,6 +5,9 @@ import { FaGithub } from "react-icons/fa";
 import { RiLiveFill } from "react-icons/ri";
 import StructoMate from "./../assets/StructoMate.webp";
 import MindMoasic from "./../assets/MindMosaic.webp";
+import ChillGamer from "./../assets/chillgamer.webp";
+import chillgamerLogo from "./../assets/chillgamerrlogo.png";
+import { GoFileSymlinkFile } from "react-icons/go";
 
 const Projects_Section = () => {
     return (
@@ -70,16 +73,23 @@ const Projects_Section = () => {
                             <FaGithub size={"1.15rem"} />
                             (Server)
                         </a>
+                        {/* <a
+                            title="will be added soon"
+                            className="btn btn-sm flex-grow bg-[#6c55e0] hover:bg-[#6c55e0] text-white text-sm font-medium rounded-md hover:scale-105 transition-all ease-in-out"
+                        >
+                            <GoFileSymlinkFile size={"1.15rem"} />
+                            Case Study
+                        </a> */}
                     </div>
                 </div>
 
-                {/* Project 1 - StructoMate*/}
+                {/* Project 2 - MindMosaic*/}
                 <div className="max-w-sm flex-grow p-4 rounded-md shadow-md hover:shadow-lg hover:scale-[101%] bg-[#f0eefc] transition-all ease-in-out">
                     <div className="flex items-center gap-1.5 py-2">
                         <img
                             className="h-8 w-8"
                             src={MindLogo}
-                            alt="StructoMate Logo. A single-building management app for adding renters, managing agreements, sending announcements, and enabling members to pay rent monthly."
+                            alt="MindMosaic Logo. This app offers a seamless platform to explore, manage, and share content using modern web technologies for a responsive and user-friendly experience."
                         />
                         <h3 className="lg:text-xl text-lg font-semibold">
                             MindMosaic
@@ -94,7 +104,9 @@ const Projects_Section = () => {
                     <div>
                         <img
                             src={MindMoasic}
-                            alt="Project: StrcutoMate. A Single Building Management Web Application build with MERN technology."
+                            alt="Project: MindMosaic. This app offers a seamless platform to explore, manage,
+                        and share content using modern web technologies for a
+                        responsive and user-friendly experience."
                         />
                     </div>
                     <div className="pt-4 flex gap-2 flex-wrap justify-center flex-grow">
@@ -124,6 +136,80 @@ const Projects_Section = () => {
                             <FaGithub size={"1.15rem"} />
                             (Server)
                         </a>
+                        {/* <a
+                            title="Will be added soon"
+                            className="btn btn-sm flex-grow bg-[#6c55e0] hover:bg-[#6c55e0] text-white text-sm font-medium rounded-md hover:scale-105 transition-all ease-in-out"
+                        >
+                            <GoFileSymlinkFile size={"1.15rem"} />
+                            Case Study
+                        </a> */}
+                    </div>
+                </div>
+
+                {/* Project 3 - Chill Gamer*/}
+                <div className="max-w-sm flex-grow p-4 rounded-md shadow-md hover:shadow-lg hover:scale-[101%] bg-[#f0eefc] transition-all ease-in-out">
+                    <div className="flex items-center gap-1.5 py-2">
+                        <img
+                            className="h-8 w-8"
+                            src={chillgamerLogo}
+                            alt="ChillGamer Logo.  Chill Gamer is a dynamic platform designed for gaming
+                        enthusiasts to explore, review, and discuss their
+                        favorite video games."
+                        />
+                        <h3 className="lg:text-xl text-lg font-semibold">
+                            Chill Gamer
+                        </h3>
+                    </div>
+                    <span className="text-sm block mb-4 mt-1 text-[#5a595e] text-balance">
+                        Chill Gamer is a dynamic platform designed for gaming
+                        enthusiasts to explore, review, and discuss their
+                        favorite video games. It offers a user-friendly
+                        experience.
+                    </span>
+                    {/* Project Thumbnail */}
+                    <div className="">
+                        <img
+                            src={ChillGamer}
+                            alt="Project: Chill Gamer. Chill Gamer is a dynamic platform designed for gaming
+                        enthusiasts to explore, review, and discuss their
+                        favorite video games. It offers a user-friendly
+                        experience.."
+                        />
+                    </div>
+                    <div className="pt-4 flex gap-2 flex-wrap justify-center flex-grow">
+                        <a
+                            href="https://chill-gamer-7f9f1.web.app/"
+                            target="_blank"
+                            title="Visit Live website."
+                            className="btn btn-sm flex-grow bg-[#6c55e0] hover:bg-[#6c55e0] text-white text-sm font-medium rounded-md hover:scale-105 transition-all ease-in-out"
+                        >
+                            <RiLiveFill size={"1.15rem"} /> Live
+                        </a>
+                        <a
+                            href="https://github.com/Ajmain-Fayek/Chill-Gamer-Client.git"
+                            target="_blank"
+                            title="Source Code (Client Side)"
+                            className="btn btn-sm flex-grow bg-[#6c55e0] hover:bg-[#6c55e0] text-white text-sm font-medium rounded-md hover:scale-105 transition-all ease-in-out"
+                        >
+                            <FaGithub size={"1.15rem"} />
+                            (Client)
+                        </a>
+                        <a
+                            href="https://github.com/Ajmain-Fayek/Chill-Gamer-Server.git"
+                            target="_blank"
+                            title="Source Code (Server Side)"
+                            className="btn btn-sm flex-grow bg-[#6c55e0] hover:bg-[#6c55e0] text-white text-sm font-medium rounded-md hover:scale-105 transition-all ease-in-out"
+                        >
+                            <FaGithub size={"1.15rem"} />
+                            (Server)
+                        </a>
+                        {/* <a
+                            title="Will be added soon"
+                            className="btn btn-sm flex-grow bg-[#6c55e0] hover:bg-[#6c55e0] text-white text-sm font-medium rounded-md hover:scale-105 transition-all ease-in-out"
+                        >
+                            <GoFileSymlinkFile size={"1.15rem"} />
+                            Case Study
+                        </a> */}
                     </div>
                 </div>
             </div>
