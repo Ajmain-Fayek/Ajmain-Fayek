@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { GrMail } from "react-icons/gr";
-// import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_Developer.pdf";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -26,16 +25,17 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="navbar bg-base-100 max-w-screen-2xl mx-auto">
-      <div className="navbar-start">
+    <div className="navbar bg-[#fffefc] max-w-screen-2xl mx-auto">
+      <div className="flex-1">
         <a
           href="#home"
-          className="text-xl sm:text-2xl font-bold text-[#6c55e0]"
+          className="text-xl sm:text-2xl font-bold drop-shadow-md"
         >
           Ajmain Fayek
         </a>
       </div>
-      <nav className="navbar-center hidden md:flex">
+
+      <nav className="flex-shrink justify-center hidden md:flex">
         <ul className="gap-4 px-1">
           <li
             className={`hidden xl:block ${
@@ -51,6 +51,11 @@ const Navbar = () => {
           >
             <a href="#about_me_section">About Me</a>
           </li>
+          <li
+            className={activeSection === "experience_section" ? "active" : ""}
+          >
+            <a href="#experience_section">Experience</a>
+          </li>
           <li className={activeSection === "skills_section" ? "active" : ""}>
             <a href="#skills_section">Skills</a>
           </li>
@@ -62,23 +67,37 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div className="navbar-end">
+
+      <div className="md:flex-1 justify-end md:mr-0 mr-2">
         <a
           href="#contact_me_section"
           title="Contact Me"
-          className="btn-sm btn rounded-md hover:scale-105 active:scale-100 bg-[#6c55e0] hover:bg-[#6c55e0] text-white"
+          className="hidden md:flex items-center btn-sm btn rounded-md hover:scale-105 active:scale-100 bg-[#706758] hover:bg-[#706758] text-[#fffefc]"
         >
           <GrMail /> Contact Me
         </a>
+        <a
+          href="#contact_me_section"
+          title="Contact Me"
+          className="md:hidden btn-sm btn rounded-md hover:scale-105 active:scale-100 bg-[#706758] hover:bg-[#706758] text-[#fffefc]"
+        >
+          <GrMail size={"1.5rem"} />
+        </a>
       </div>
+
+      {/* Navbar for mobile devices */}
       <nav className="dropdown">
-        <div tabIndex={0} role="button" className="btn btn-sm md:hidden">
+        <div
+          tabIndex={0}
+          role="button"
+          className="btn btn-sm md:hidden border border-[#706758]"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="#6c55e0"
+            stroke="#706758"
           >
             <path
               strokeLinecap="round"
@@ -90,13 +109,18 @@ const Navbar = () => {
         </div>
         <ul
           tabIndex={0}
-          className="flex-col gap-4 menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 right-2 p-2 shadow"
+          className="flex-col gap-4 menu-sm dropdown-content bg-[#fffefc] rounded-box z-[1] mt-3 w-52 right-2 p-2 shadow"
         >
           <li className={`${activeSection === "home" ? "active" : ""}`}>
             <a href="#home">Home</a>
           </li>
           <li className={activeSection === "about_me_section" ? "active" : ""}>
             <a href="#about_me_section">About Me</a>
+          </li>
+          <li
+            className={activeSection === "experience_section" ? "active" : ""}
+          >
+            <a href="#experience_section">Experience</a>
           </li>
           <li className={activeSection === "skills_section" ? "active" : ""}>
             <a href="#skills_section">Skills</a>

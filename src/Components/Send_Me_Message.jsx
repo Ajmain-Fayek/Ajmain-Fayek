@@ -50,7 +50,7 @@ const Send_Me_Message = () => {
               type="text"
               id="name"
               name="user_name"
-              className="mt-1 p-2 block w-full bg-[#f0eefc]  ring-0 focus:ring-1  focus:outline-none rounded-md shadow-sm focus:ring-[#6c55e0] sm:text-sm"
+              className="mt-1 p-2 block w-full bg-[#FAF9F6] border border-[#f0efec] drop-shadow-md ring-0 focus:ring-1  focus:outline-none rounded-md shadow-sm focus:ring-[#706758] sm:text-sm"
               required
             />
           </div>
@@ -60,7 +60,7 @@ const Send_Me_Message = () => {
               type="email"
               id="email"
               name="user_email"
-              className="mt-1 p-2 block w-full  bg-[#f0eefc]  ring-0 focus:ring-1  focus:outline-none rounded-md shadow-sm focus:ring-[#6c55e0] sm:text-sm"
+              className="mt-1 p-2 block w-full  bg-[#FAF9F6] border border-[#f0efec] drop-shadow-md ring-0 focus:ring-1  focus:outline-none rounded-md shadow-sm focus:ring-[#706758] sm:text-sm"
               required
             />
           </div>
@@ -70,13 +70,13 @@ const Send_Me_Message = () => {
               id="message"
               name="message"
               rows="4"
-              className="mt-1 p-2 block w-full  bg-[#f0eefc]  ring-0 focus:ring-1  focus:outline-none rounded-md shadow-sm focus:ring-[#6c55e0] sm:text-sm"
+              className="mt-1 p-2 block w-full  bg-[#FAF9F6] border border-[#f0efec] drop-shadow-md ring-0 focus:ring-1  focus:outline-none rounded-md shadow-sm focus:ring-[#706758] sm:text-sm"
               required
             ></textarea>
           </div>
           <button
             type="submit"
-            className="self-start flex items-center gap-x-2 btn-sm bg-[#6c55e0] text-white rounded-md shadow-sm hover:scale-105 active:scale-100 transition-all ease-linear"
+            className="self-start flex items-center font-semibold gap-x-2 btn-sm bg-[#706758] text-[#FAF9F6] rounded-md shadow-sm hover:scale-105 active:scale-100 transition-all ease-linear"
           >
             Send
             <IoSend />

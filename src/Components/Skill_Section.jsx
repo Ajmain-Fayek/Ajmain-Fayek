@@ -58,10 +58,10 @@ const backendSkills = [
   { name: "PostgreSQL", logo: <BiLogoPostgresql size={"1.5rem"} /> },
 ];
 const toolsSkills = [
-    { name: "Git", logo: <FaGitAlt size={"1.5rem"} /> },
-    { name: "Prisma", logo: <SiPrisma size={"1.5rem"} /> },
-    { name: "Vercel", logo: <IoLogoVercel size={"1.5rem"} /> },
-    //   { name: "Firebase", logo: <IoLogoFirebase size={"1.5rem"} /> },
+  { name: "Git", logo: <FaGitAlt size={"1.5rem"} /> },
+  { name: "Prisma", logo: <SiPrisma size={"1.5rem"} /> },
+  { name: "Vercel", logo: <IoLogoVercel size={"1.5rem"} /> },
+  //   { name: "Firebase", logo: <IoLogoFirebase size={"1.5rem"} /> },
   //   { name: "JWT", logo: <SiJsonwebtokens size={"1.5rem"} /> },
   //   { name: "Github", logo: <FaGithub size={"1.5rem"} /> },
 ];
@@ -70,20 +70,20 @@ const Skill_Section = () => {
   return (
     <div className="py-20 px-4 max-w-screen-2xl mx-auto">
       <div className="text-center">
-        <h1 className="text-2xl font-semibold flex items-center justify-center gap-1.5">
+        <h1 className="text-2xl font-semibold flex items-center justify-center gap-1.5 drop-shadow-md">
           {" "}
           <GiSkills />
           Skills
         </h1>
-        <span className="text-sm text-[#5a595e]">
+        <span className="text-sm text-[#5a595ec9] font-medium">
           My Proficiency and Expertise in Technology
         </span>
       </div>
       {/* Frontend */}
       <div className="flex gap-8 mt-8 justify-between flex-col lg:flex-row">
-        <div className="flex-1 p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
-          <h3 className="lg:text-xl text-lg font-bold flex items-center gap-1.5 mb-4 text-[#6c55e0]">
-            <RiBracesLine color="#6c55e0" size={"1.5rem"} /> Frontend
+        <div className="flex-1 p-10 rounded-lg shadow-md bg-[#fffefc] border border-[#f0efec] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
+          <h3 className="lg:text-xl text-lg font-bold flex items-center gap-1.5 mb-4 drop-shadow-md">
+            <RiBracesLine color="#706758" size={"1.5rem"} /> Frontend
           </h3>
           <div className="flex flex-wrap flex-grow justify-center gap-8 mt-10">
             {frontendSkills.map((skill, index) => (
@@ -92,10 +92,10 @@ const Skill_Section = () => {
                 className={`flex flex-col-reverse items-center gap-4`}
               >
                 <h4
-                  className={`flex flex-col text-md items-center gap-1.5 ${
+                  className={`flex flex-col text-md items-center gap-1.5 drop-shadow-md ${
                     skill?.name === "React" || skill?.name === "TypeScript"
                       ? "text-[#178fff]"
-                      : "text-[#5744b6]"
+                      : ""
                   }`}
                 >
                   {skill.logo} {skill.name}
@@ -105,9 +105,9 @@ const Skill_Section = () => {
           </div>
         </div>
         {/* Backend */}
-        <div className="flex-1 p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
-          <h3 className="lg:text-xl text-lg font-semibold flex items-center gap-1.5 mb-4 text-[#6c55e0]">
-            <GiServerRack color="#6c55e0" /> Backend
+        <div className="flex-1 p-10 rounded-lg shadow-md bg-[#fffefc] border border-[#f0efec] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
+          <h3 className="lg:text-xl text-lg font-semibold flex items-center gap-1.5 mb-4 text-[#706758] drop-shadow-md">
+            <GiServerRack color="#706758" /> Backend
           </h3>
           <div className="flex flex-wrap flex-grow justify-center gap-8 mt-10">
             {backendSkills.map((skill, index) => (
@@ -115,7 +115,7 @@ const Skill_Section = () => {
                 key={index}
                 className="flex flex-col-reverse items-center gap-4"
               >
-                <h4 className="flex text-md flex-col items-center gap-1.5 text-[#5744b6]">
+                <h4 className="flex text-md flex-col items-center gap-1.5 drop-shadow-md">
                   {skill.logo} {skill.name}
                 </h4>
               </div>
@@ -123,9 +123,9 @@ const Skill_Section = () => {
           </div>
         </div>
         {/* Tools */}
-        <div className="flex-1 p-10 rounded-lg shadow-md bg-[#f0eefc] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
-          <h3 className="lg:text-xl text-lg font-semibold flex items-center gap-1.5 mb-4 text-[#6c55e0]">
-            <BsTools color="#6c55e0" /> Tools
+        <div className="flex-1 p-10 rounded-lg shadow-md bg-[#fffefc] border border-[#f0efec] hover:shadow-lg hover:scale-[101.5%] transition-all ease-linear">
+          <h3 className="lg:text-xl text-lg font-semibold flex items-center gap-1.5 mb-4 text-[#706758] drop-shadow-md">
+            <BsTools color="#706758" /> Tools
           </h3>
           <div className="flex flex-wrap flex-grow justify-center gap-8 mt-10">
             {toolsSkills.map((skill, index) => (
@@ -133,7 +133,7 @@ const Skill_Section = () => {
                 key={index}
                 className="flex flex-col-reverse items-center gap-4"
               >
-                <h4 className="flex text-md flex-col items-center gap-1.5 text-[#5744b6]">
+                <h4 className="flex text-md flex-col items-center gap-1.5 drop-shadow-md">
                   {skill.logo} {skill.name}
                 </h4>
               </div>

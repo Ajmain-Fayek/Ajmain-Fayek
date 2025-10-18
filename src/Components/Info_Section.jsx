@@ -3,18 +3,21 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { RiScrollToBottomFill } from "react-icons/ri";
 // import Resume from "../assets/Resume_of_Ajmain Fayek_for_Web_Developer.pdf";
-import Photo from "../assets/Photo of Ajmain Fayek.webp";
+// import Photo from "../assets/Photo of Ajmain Fayek.webp";
+import Photo from "../assets/photo.webp";
 
 const Info_Section = () => {
   return (
     <div className="flex relative flex-col-reverse max-w-screen-2xl mx-auto gap-4 md:flex-row py-14 md:py-32 w-full items-center">
       <div className="md:w-1/2 w-full flex flex-col">
         <div className="space-y-4 p-4">
-          <h1 className="text-2xl font-bold xl:text-4xl">
+          <h1 className="text-2xl font-bold xl:text-4xl drop-shadow-md">
             Hi, I'm Ajmain Fayek
           </h1>
-          <p className="text-lg text-[#5a595e]">Web Programmer</p>
-          <p className="text-base text-[#5a595e] text-pretty">
+          <p className="text-[#5a595ec9] font-medium underline">
+            Full Stack Developer
+          </p>
+          <p className="text-base font-medium text-pretty">
             Embarking on a Journey to Master the MERN Stack: Crafting Scalable,
             Dynamic, and Feature-Rich Web Applications with MongoDB, Express.js,
             React, and Node.js
@@ -28,7 +31,7 @@ const Info_Section = () => {
                   title="Github"
                 >
                   <FaGithubSquare
-                    color="#6c55e0"
+                    color="#706758"
                     size={"2rem"}
                     className="hover:scale-110 active:scale-100 ease-linear transition-all"
                   />
@@ -41,7 +44,7 @@ const Info_Section = () => {
                   title="LinkedIn"
                 >
                   <FaLinkedin
-                    color="#6c55e0"
+                    color="#706758"
                     size={"2rem"}
                     className="hover:scale-110 active:scale-100 ease-linear transition-all"
                   />
@@ -51,7 +54,7 @@ const Info_Section = () => {
                 <a
                   href="#contact_me_section"
                   title="Contact Me"
-                  className="btn-sm btn rounded-md hover:scale-105 active:scale-100 bg-[#6c55e0] hover:bg-[#6c55e0] text-white"
+                  className="btn-sm btn rounded-md hover:scale-105 active:scale-100 bg-[#706758] hover:bg-[#706758] text-[#fffefc]"
                 >
                   <GrMail /> Contact Me
                 </a>
@@ -63,15 +66,15 @@ const Info_Section = () => {
       <div className="md:w-1/2 w-full flex justify-center">
         <div>
           <img
-            className="w-[320px]"
+            className="w-[320px] bg-[#FAF9F6] rounded-full drop-shadow-lg hover:shadow-2xl"
             src={Photo}
-            title="Ajmain Fayek | Web programmer | Aspiring MERN Stack Developer"
-            alt="Picture of Ajmain Fayek. Web programmer | Aspiring MERN Stack Developer"
+            title="Ajmain Fayek | Full Stack Developer"
+            alt="Picture of Ajmain Fayek. Full Stack Developer."
           />
         </div>
       </div>
       <div className="flex absolute bottom-8 md:bottom-16 gap-1 items-center -mt-10">
-        <RiScrollToBottomFill color="#6c55e0" size={"1.5rem"} />
+        <RiScrollToBottomFill color="#706758" size={"1.5rem"} />
         Scroll down
       </div>
     </div>
