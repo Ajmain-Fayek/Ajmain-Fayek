@@ -19,15 +19,6 @@
 
   - Total Pull Request = 18
   - Total <strong>Merged</strong> Pull Request = 18
-  
-  📚 Currently working at The ScoreCard
-  <br>
-  
-  🎯 Goals: 
-   - Master the MERN stack
-   - Building dynamic, secure, scalable ,and user-friendly web applications<br>
-    
-  🎲 Fun fact: Developers don't write bugs; they create unexpected features! 😄</p>
 
    <img src="./public/favicon.webp" width="10px" />  Portfolio: <https://ajmain-fayek.web.app/>
 
