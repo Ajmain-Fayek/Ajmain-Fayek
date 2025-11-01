@@ -18,7 +18,7 @@
 <p align="left">✨ Creating bugs since 2021<br>
 
   - Total Pull Request = 18
-  - Total Merged Pull Request = 18
+  - Total <strong>Merged<strong> Pull Request = 18
   
   📚 Currently working at The ScoreCard
   <br>
